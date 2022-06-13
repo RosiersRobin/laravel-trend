@@ -1,17 +1,22 @@
 {
-    "name": "flowframe/laravel-trend",
+    "name": "rosiersrobin/laravel-trend",
     "description": "Easily generate model trends",
     "keywords": [
         "Flowframe",
         "laravel",
         "laravel-trend"
     ],
-    "homepage": "https://github.com/flowframe/laravel-trend",
+    "homepage": "hhttps://github.com/RosiersRobin/laravel-trend",
     "license": "MIT",
     "authors": [
         {
             "name": "Lars Klopstra",
             "email": "lars@flowframe.nl",
+            "role": "Developer"
+        },
+        {
+            "name": "Robin Rosiers",
+            "email": "robin@libaro.be",
             "role": "Developer"
         }
     ],
@@ -30,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Flowframe\\Trend\\": "src",
-            "Flowframe\\Trend\\Database\\Factories\\": "database/factories"
+            "RosiersRobin\\Trend\\": "src",
+            "RosiersRobin\\Trend\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Flowframe\\Trend\\Tests\\": "tests"
+            "RosiersRobin\\Trend\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Flowframe\\Trend\\TrendServiceProvider"
+                "RosiersRobin\\Trend\\TrendServiceProvider"
             ],
             "aliases": {
-                "Trend": "Flowframe\\Trend\\TrendFacade"
+                "Trend": "RosiersRobin\\Trend\\TrendFacade"
             }
         }
     },
