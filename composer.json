@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "RosiersRobin\\Trend\\": "src",
-            "RosiersRobin\\Trend\\Database\\Factories\\": "database/factories"
+            "FlowFrame\\Trend\\": "src",
+            "FlowFrame\\Trend\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RosiersRobin\\Trend\\Tests\\": "tests"
+            "FlowFrame\\Trend\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RosiersRobin\\Trend\\TrendServiceProvider"
+                "FlowFrame\\Trend\\TrendServiceProvider"
             ],
             "aliases": {
-                "Trend": "RosiersRobin\\Trend\\TrendFacade"
+                "Trend": "FlowFrame\\Trend\\TrendFacade"
             }
         }
     },
