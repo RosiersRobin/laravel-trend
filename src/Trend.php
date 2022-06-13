@@ -14,6 +14,8 @@ use Illuminate\Support\Collection;
 class Trend
 {
     public string $interval;
+    
+    public int $intervalStep = 1;
 
     public Carbon $start;
 
@@ -46,6 +48,13 @@ class Trend
     public function interval(string $interval): self
     {
         $this->interval = $interval;
+
+        return $this;
+    }
+    
+    public function intervalStep(int $step): self
+    {
+        $this->intervalStep = $step;
 
         return $this;
     }
@@ -150,7 +159,7 @@ class Trend
             CarbonPeriod::between(
                 $this->start,
                 $this->end,
-            )->interval("1 {$this->interval}")
+            )->interval("{$this->intervalStep} {$this->interval}")
         );
     }
 
