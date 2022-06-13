@@ -1,4 +1,4 @@
-# Laravel Trend
+# Laravel Trend - extended
 
 Generate trends for your models. Easily generate charts or reports.
 
