@@ -1,6 +1,6 @@
 <?php
 
-namespace Flowframe\Trend\Adapters;
+namespace RosiersRobin\Trend\Adapters;
 
 abstract class AbstractAdapter
 {

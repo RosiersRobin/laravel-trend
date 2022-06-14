@@ -1,5 +1,5 @@
 <?php
 
-use Flowframe\Trend\Tests\TestCase;
+use RosiersRobin\Trend\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

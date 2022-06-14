@@ -1,12 +1,12 @@
 <?php
 
-namespace Flowframe\Trend;
+namespace RosiersRobin\Trend;
 
 use Carbon\CarbonPeriod;
 use Error;
-use Flowframe\Trend\Adapters\MySqlAdapter;
-use Flowframe\Trend\Adapters\PgsqlAdapter;
-use Flowframe\Trend\Adapters\SqliteAdapter;
+use RosiersRobin\Trend\Adapters\MySqlAdapter;
+use RosiersRobin\Trend\Adapters\PgsqlAdapter;
+use RosiersRobin\Trend\Adapters\SqliteAdapter;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Collection;
@@ -14,7 +14,7 @@ use Illuminate\Support\Collection;
 class Trend
 {
     public string $interval;
-    
+
     public int $intervalStep = 1;
 
     public Carbon $start;
@@ -51,7 +51,7 @@ class Trend
 
         return $this;
     }
-    
+
     public function intervalStep(int $step): self
     {
         $this->intervalStep = $step;

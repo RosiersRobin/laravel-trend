@@ -1,8 +1,8 @@
 <?php
 
-namespace Flowframe\Trend\Tests;
+namespace RosiersRobin\Trend\Tests;
 
-use Flowframe\Trend\TrendServiceProvider;
+use RosiersRobin\Trend\TrendServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 

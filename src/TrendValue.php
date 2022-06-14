@@ -1,6 +1,6 @@
 <?php
 
-namespace Flowframe\Trend;
+namespace RosiersRobin\Trend;
 
 class TrendValue
 {
